@@ -1,0 +1,53 @@
+.banner{
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+.content{
+    text-align: center;
+}
+.bnrText{
+    display: inline-block;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
+.bnrText>p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffffbd;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 80px;
+}
+.bnrText>p:last-child{
+    padding-left: 270px;
+}
+.bnrText>p:last-child>span{
+    display: block;
+}
+.bnrText>.bigText>h2{
+    font-size: 288px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: left;
+    margin: 0;
+    line-height: 88%;
+}
+
+@media (min-width:320px) and (max-width:700px) {
+    .bnrText>.bigText>h2{
+        font-size: 180px;
+    }
+    .bnrText>p:last-child{
+        padding-left: 100px;
+    }
+    .bnrText{
+        padding-bottom: 150px;
+    }
+}

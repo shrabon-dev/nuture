@@ -1,0 +1,30 @@
+.socialLink{
+    position: fixed;
+    bottom: 20px;
+    left: 280px;
+    z-index: 999999;
+}
+.socialLink>ul{
+    padding: 0;
+}
+.socialLink>ul>li>a{
+    padding-bottom: 10px;
+    color: #ffffff;
+    padding-left: 0;
+}
+
+@media (min-width:320px) and (max-width:1519px) {
+    .socialLink{
+        left: 6%;
+    }
+}
+@media (min-width:1520px) and (max-width:1699px) {
+    .socialLink{
+        left: 8%;
+    }
+}
+@media (min-width:1700px) and (max-width:1799px) {
+    .socialLink{
+        left: 12%;
+    }
+}
